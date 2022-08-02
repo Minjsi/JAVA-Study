@@ -1,0 +1,7 @@
+@charset "UTF-8";
+// 사용자 변수를 생성(map type)
+$custom-colors: (
+  "custom-color": #900
+);
+// merge
+$theme-colors: map-merge($theme-colors, $custom-colors);
